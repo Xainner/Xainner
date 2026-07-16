@@ -1,144 +1,44 @@
-<h1 align="center">
-  <img src="https://img.shields.io/badge/Xainner-Founder%20Engineer%20%26%20AI%20Architect-0a0a0a?style=for-the-badge&logo=github&logoColor=white" alt="Xainner" />
-</h1>
+# Xainner
 
-<p align="center">
-  Full-Stack Developer · AI Enthusiast · Costa Rica 🇨🇷
-</p>
+**Founder Engineer & AI Architect**
 
----
+Diseño ecosistemas digitales que resuelven problemas reales. Creo plataformas modernas impulsadas por inteligencia artificial, automatización y experiencias premium.
 
-## ✉️ Connect
-
-<p align="center">
-  <a href="https://xainner.com">
-    <img src="https://img.shields.io/badge/Website-xainner.com-0a0a0a?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
-  </a>
-  <a href="https://www.linkedin.com/in/joserojas29/">
-    <img src="https://img.shields.io/badge/LinkedIn-joserojas29-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:business@xainner.com">
-    <img src="https://img.shields.io/badge/Email-business@xainner.com-0a0a0a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://discord.com/users/339977677811482634">
-    <img src="https://img.shields.io/badge/Discord-xainner-0a0a0a?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
-</p>
+[![Website](https://img.shields.io/badge/Website-xainner.com-0a0a0a?style=flat-square&logo=google-chrome&logoColor=white)](https://xainner.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-joserojas29-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joserojas29/) [![Rinari AI](https://img.shields.io/badge/AI-rinari.ai-7B68EE?style=flat-square&logo=openai&logoColor=white)](https://rinari.ai) [![Discord](https://img.shields.io/badge/Discord-xainner-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/339977677811482634) [![Email](https://img.shields.io/badge/Email-business@xainner.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:business@xainner.com)
 
 ---
 
-## 👤 About Me
+### 🚀 Projects
 
-> Founder Engineer & AI Architect. Diseño ecosistemas digitales que resuelven problemas reales. Creo plataformas modernas impulsadas por inteligencia artificial, automatización y experiencias premium. No solo escribo código, construyo productos.
-
----
-
-## 🛠️ Tech Stack
-
-<table align="center">
-  <tr>
-    <td align="center" width="25%">
-      <b>Backend</b><br/><br/>
-      <img src="https://img.shields.io/badge/Kotlin-A97BFF?style=for-the-badge&logo=kotlin&logoColor=white" /><br/><br/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" /><br/><br/>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-    </td>
-    <td align="center" width="25%">
-      <b>Frontend</b><br/><br/>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" /><br/><br/>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" /><br/><br/>
-      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-    </td>
-    <td align="center" width="25%">
-      <b>Database</b><br/><br/>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" /><br/><br/>
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-    </td>
-    <td align="center" width="25%">
-      <b>Infrastructure</b><br/><br/>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /><br/><br/>
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /><br/><br/>
-      <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="4">
-      <b>AI & APIs</b><br/><br/>
-      <img src="https://img.shields.io/badge/OpenAI-7B68EE?style=for-the-badge&logo=openai&logoColor=white" /><br/><br/>
-      <img src="https://img.shields.io/badge/Stable_Diffusion-4169E1?style=for-the-badge&logo=python&logoColor=white" /><br/><br/>
-      <img src="https://img.shields.io/badge/Discord_API-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-    </td>
-  </tr>
-</table>
+| Project | What it is | Stack |
+|---------|-----------|-------|
+| 🏴 **[Rinari.ai](https://rinari.ai)** | Plataforma IA multimodal: asistente, imágenes, voz, automatizaciones | [![AI](https://img.shields.io/badge/AI-7B68EE?style=flat-square&logo=openai&logoColor=white)] [![Web](https://img.shields.io/badge/Web-0078D4?style=flat-square&logo=react&logoColor=white)] [![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)] |
+| 💬 **[Rinari.bot](https://discord.com/oauth2/authorize?client_id=1473471376131100683&permissions=8&scope=bot%20applications.commands)** | Bot de Discord con IA, moderación y herramientas inteligentes | [![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)] [![AI](https://img.shields.io/badge/AI-7B68EE?style=flat-square&logo=openai&logoColor=white)] |
+| ⚽ **[TeamMaker.club](https://teammaker.club)** | SaaS para equipos, torneos y estadísticas en tiempo real | [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white)] [![TypeScript](https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white)] |
+| 🏟️ **[MiCanchaCR.com](https://micanchacr.com)** | Reserva canchas de fútbol en Costa Rica | [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)] [![Maps](https://img.shields.io/badge/Maps-4285F4?style=flat-square&logo=google-maps&logoColor=white)] |
+| 🍳 **[ReceTica.com](https://recetica.com)** | Plataforma de recetas y comunidad | [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white)] [![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)] |
+| 💻 **[SerDigital](https://serdigitalcr.com)** | Apps web profesionales y soluciones digitales | [![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)] [![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)] |
+| 🎮 **[ARK Servers](https://ark.renxaii.com)** | Servidores ARK: Survival Evolved con infra optimizada | [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)] [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)] |
 
 ---
 
-## 🚀 Projects
+### 🛠️ Tech I work with
 
-### Rinari.ai — Flagship
+**Languages**  
+[![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF?style=flat-square&logo=kotlin&logoColor=white)] [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)] [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)] [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)] [![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)] [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)] [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)]
 
-<img src="https://img.shields.io/badge/Rinari.ai-7B68EE?style=for-the-badge&logo=openai&logoColor=white" />
+**Frontend**  
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white)] [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)] [![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)]
 
-Plataforma de inteligencia artificial multimodal con asistente conversacional, generación de imágenes, voz y automatizaciones.
+**Backend**  
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)] [![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF?style=flat-square&logo=kotlin&logoColor=white)] [![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)] [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)] [![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)]
 
-[→ rinari.ai](https://rinari.ai)
+**Infrastructure**  
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)] [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)] [![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)] [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)]
 
----
-
-### Rinari.bot — Discord AI
-
-<img src="https://img.shields.io/badge/Rinari.bot-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-
-Bot de Discord con comandos avanzados, moderación, diversión y herramientas inteligentes impulsadas por IA.
-
-[→ Invite Bot](https://discord.com/oauth2/authorize?client_id=1473471376131100683&permissions=8&scope=bot%20applications.commands)
+**AI & APIs**  
+[![OpenAI](https://img.shields.io/badge/OpenAI-7B68EE?style=flat-square&logo=openai&logoColor=white)] [![Stable Diffusion](https://img.shields.io/badge/Stable_Diffusion-4169E1?style=flat-square&logo=python&logoColor=white)] [![Discord API](https://img.shields.io/badge/Discord_API-5865F2?style=flat-square&logo=discord&logoColor=white)]
 
 ---
 
-### TeamMaker.club — Sports SaaS
-
-<img src="https://img.shields.io/badge/TeamMaker-25D366?style=for-the-badge&logo=react&logoColor=white" />
-
-Plataforma para crear, gestionar y competir con equipos, torneos y estadísticas en tiempo real.
-
-[→ TeamMaker.club](https://teammaker.club)
-
----
-
-### MiCanchaCR.com — Reservas
-
-<img src="https://img.shields.io/badge/MiCanchaCR-FF6B00?style=for-the-badge&logo=google-maps&logoColor=white" />
-
-Reserva canchas de fútbol en Costa Rica. Encuentra, reserva y juega fácil y rápido.
-
-[→ MiCanchaCR.com](https://micanchacr.com)
-
----
-
-### ReceTica.com — Food Platform
-
-<img src="https://img.shields.io/badge/ReceTica-EA4335?style=for-the-badge&logo=firefox-browser&logoColor=white" />
-
-Descubre, guarda y comparte las mejores recetas. Cocina fácil, rica y saludable.
-
-[→ ReceTica.com](https://recetica.com)
-
----
-
-### SerDigital — Web Apps
-
-<img src="https://img.shields.io/badge/SerDigital-0078D4?style=for-the-badge&logo=github&logoColor=white" />
-
-Desarrollo de aplicaciones web profesionales y soluciones digitales personalizadas.
-
-[→ SerDigital](https://serdigitalcr.com)
-
----
-
-### ARK Servers — Gaming
-
-<img src="https://img.shields.io/badge/ARK-FF6B00?style=for-the-badge&logo=steam&logoColor=white" />
-
-Servidores de ARK: Survival Evolved con infraestructura optimizada y alta disponibilidad.
-
-[→ ark.renxaii.com](https://ark.renxaii.com)
+*📍 San José, Costa Rica · [xainner.com](https://xainner.com)*
