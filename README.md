@@ -109,6 +109,23 @@ The software & AI agency where I lead development, including its <b>multi-tenant
 
 <sub>Also: <a href="https://micanchacr.com">MiCanchaCR</a>, court booking for Costa Rica.</sub>
 
+## ✦ Open source
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Xainner/toolbox">🧰 Toolbox</a></h3>
+Self-hosted suite of <b>24 PDF and image tools</b>, iLovePDF + Photoroom style. Local AI (BiRefNet, Real-ESRGAN, OCRmyPDF), CPU by default with optional NVIDIA GPU. Adding a new tool is <b>a single file</b>: catalog, form, validation and page are generated from it.<br>
+<sub><code>FastAPI</code> <code>React 19</code> <code>Tailwind 4</code> <code>Docker</code></sub>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Xainner/MCP-Servers">🧩 MCP-Servers</a></h3>
+Hand-crafted <b>Model Context Protocol</b> servers for Planka, n8n and PufferPanel: full CRUD, typed schemas and predictable outputs for Claude, Cursor, VS Code and any MCP client.<br>
+<sub><code>TypeScript</code> <code>Node.js</code> <code>MCP</code></sub>
+</td>
+</tr>
+</table>
+
 ## ✦ Toolbox
 
 <p>
