@@ -17,7 +17,7 @@
 I design and build **complete digital ecosystems** — from the runtime of an AI agent to the desktop app that drives it, the SaaS that monetizes it and the infrastructure it runs on. I work end to end — product, architecture, backend, frontend, mobile and infra — focused on systems that can be **inspected, verified and operated** in production.
 
 ```yaml
-now:        Rinari — an AI agent with its own engine, terminal client and desktop workspace
+now:        Rinari 0.3 — an AI engineering companion: own engine, terminal client and desktop workspace
 focus:      agents · LLM tooling · native apps · SaaS · self-hosting
 principles: the model proposes, the runtime authorizes · evidence over promises · local-first when it matters
 ```
@@ -26,60 +26,73 @@ principles: the model proposes, the runtime authorizes · evidence over promises
 
 ## ✦ Flagship — Rinari
 
-> **One engine, two ways to work.** Rinari Engine is an agent harness written in Python that owns execution, sessions, model routing, permissions and state. On top of it live a terminal client and a desktop workspace, connected through a versioned protocol.
+> **One engine, two ways to work.** Rinari Engine is an agent harness written in Python that owns execution, sessions, model routing, approvals, credentials and state. The terminal client and the desktop workspace are two clients of that same engine — start a task in one and continue the **same session** in the other.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 <a href="https://github.com/Xainner/Rinari-Agent">
-  <img src="https://raw.githubusercontent.com/Xainner/Rinari-Agent/main/docs/assets/rinari-agent-hero-v2.png" alt="Rinari Agent" width="100%" />
+  <img src="https://raw.githubusercontent.com/Xainner/Rinari-Agent/main/docs/assets/readme/hero.jpg" alt="Rinari Agent — Your AI engineering companion" width="100%" />
 </a>
 
 ### [Rinari Agent](https://github.com/Xainner/Rinari-Agent)
-**Turn a conversation into work you can inspect.**
+**Your AI engineering companion, on your desktop.**
 
-A desktop workspace for AI-assisted development, research and project work.
+Reads your repo, does the work and shows you the evidence — in a workspace you can follow step by step. **New in 0.3: Obsidian Neon.**
 
-- **PLAN · BUILD · REVIEW** modes with per-mode permission rules
-- Execution timeline: tool calls, commands, diffs, checkpoints and verification
-- **Boards**: N parallel sessions, each with its own project and model; agents that message each other with explicit approval
-- Embedded Chromium browser, background processes, OCR and vision
-- OpenAI, Anthropic, Ollama, LM Studio or any compatible endpoint
+- **PLAN · BUILD · REVIEW** — the engine applies the permissions of each mode
+- Live checklist, approvals with risk level, and a Verification panel where every claim has its command and result
+- Parallel **subagents**, **Boards** and **Flows** for several sessions at once
+- Durable memory, multi-folder projects, profiles as workspaces and local voice dictation (whisper.cpp)
+- OpenAI, Anthropic, Ollama, LM Studio, OpenCode Go or any OpenAI-compatible endpoint, with reasoning up to **Ultra**
 
+[![Release](https://img.shields.io/github/v/release/Xainner/Rinari-Agent?style=flat-square&color=9358ff&label=release)](https://github.com/Xainner/Rinari-Agent/releases/latest)
 ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=flat-square&logo=electron&logoColor=9FEAF9)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 [![CI](https://github.com/Xainner/Rinari-Agent/actions/workflows/agent-ci.yml/badge.svg)](https://github.com/Xainner/Rinari-Agent/actions/workflows/agent-ci.yml)
 
 </td>
 <td width="50%" valign="top">
 
 <a href="https://github.com/Xainner/Rinari-CLI">
-  <img src="https://raw.githubusercontent.com/Xainner/Rinari-CLI/main/docs/img/rinari-cli-hero.png" alt="Rinari CLI" width="100%" />
+  <img src="https://raw.githubusercontent.com/Xainner/Rinari-CLI/main/docs/img/rinari-cli-hero-030.jpg" alt="Rinari CLI — Your terminal. Her engine." width="100%" />
 </a>
 
 ### [Rinari CLI](https://github.com/Xainner/Rinari-CLI)
-**Your terminal. An agent that can work with it.**
+**Your terminal. Her engine.**
 
-Rinari's engine and its terminal client: explore code, plan, execute and review with evidence.
+Ask, plan, fix and prove it from the command line, then hand the same session to the desktop.
 
-- `ask` · `plan` · `agent` · `review` · `verify` · `resume` · `undo`
+- `ask` · `plan` · `review` run read-only; `agent` · `run` work in the repo behind approvals
+- Reproduces the bug with a failing test, fixes it, reruns the suite — `completion: DONE` only when required checks actually pass
 - Repository tools with **tree-sitter + LSP**, Git, shell, PTY, browser, HTTP
-- Extensible: **MCP**, OpenAPI, skills, plugins and hooks in the same runtime
-- Specialist sub-agents with budgets, workspace isolation and model routing
-- Permission profiles, approvals, sandboxing, traces and diagnostics
+- Extensible: **MCP** (stdio and remote), OpenAPI, skills, plugins and hooks in one runtime
+- Specialist and parallel subagents, durable memory, checkpoints and `undo`
 
 ![Python](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=uv&logoColor=white)
 ![Typer](https://img.shields.io/badge/Typer_+_Rich-000000?style=flat-square&logo=gnubash&logoColor=white)
-![MIT](https://img.shields.io/badge/License-MIT-8B5CF6?style=flat-square)
+![MIT](https://img.shields.io/badge/License-MIT-9358ff?style=flat-square)
 [![CI](https://github.com/Xainner/Rinari-CLI/actions/workflows/ci.yml/badge.svg)](https://github.com/Xainner/Rinari-CLI/actions/workflows/ci.yml)
 
 </td>
 </tr>
 </table>
+
+**Start in the terminal, continue on the desktop.**
+
+```bash
+rinari agent "Checkout shows -116.64 with WELCOME10. Find the bug, fix it and prove it with the tests."
+rinari desktop . --session <id>
+```
+
+<a href="https://github.com/Xainner/Rinari-Agent">
+  <img src="https://raw.githubusercontent.com/Xainner/Rinari-Agent/main/docs/assets/readme/handoff.webp" alt="A session started in Rinari CLI, continued in Rinari Agent" width="100%" />
+</a>
+
+<sub>A real capture of Rinari Agent 0.3: the request typed in the terminal is the first message on the desktop.</sub>
 
 ```mermaid
 flowchart LR
@@ -87,8 +100,15 @@ flowchart LR
     Desktop["🖥️ Rinari Agent<br/>Electron + React"] -- "NDJSON · stdio<br/>versioned protocol" --> Engine
     Engine["⚙️ Rinari Engine<br/>Python"] --> Models["🧠 Providers & models"]
     Engine --> Tools["🛠️ Tools · Policy · Approvals"]
-    Engine --> State["💾 Sessions · Context · Artifacts"]
+    Engine --> State["💾 Sessions · Context · Memory"]
 ```
+
+<div align="center">
+
+[![Download Rinari Agent](https://img.shields.io/badge/Download_Rinari_Agent-9358ff?style=for-the-badge)](https://github.com/Xainner/Rinari-Agent/releases/latest)
+[![Docs](https://img.shields.io/badge/rinari.ai/docs-1E1B2E?style=for-the-badge&logo=readthedocs&logoColor=C4B5FD)](https://rinari.ai/docs/)
+
+</div>
 
 <br />
 
