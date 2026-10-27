@@ -46,6 +46,22 @@ Moderation, tickets, levels, music and configurable AI, run from a web dashboard
 </tr>
 </table>
 
+## ✦ New: Media Lab
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Xainner/media-lab"><img src="assets/card-medialab.jpg" alt="Media Lab" /></a>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Xainner/media-lab">Media Lab</a></h3>
+A <b>self-hosted AI media studio</b>: images, video with synchronized audio, full songs, sound effects and voices from open models, all on my own GPUs. Nothing goes to a cloud generator.<br><br>
+A <b>Director</b> turns a song into a music video, an agent plans whole requests, and an <b>MCP server with 55 tools</b> opens the studio to Claude and other clients. Private accounts with TOTP and per-account quotas.<br>
+<sub><code>Python</code> <code>FastAPI</code> <code>React</code> <code>Vite</code> <code>ComfyUI</code> <code>MCP</code> <code>Docker</code></sub>
+</td>
+</tr>
+</table>
+
 ## ✦ Worlds I've built
 
 <table>
